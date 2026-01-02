@@ -6,7 +6,7 @@ services:
     container_name: go-rest-api-mysql
     environment:
       MYSQL_ROOT_PASSWORD: password
-      MYSQL_DATABASE: projectmanager
+      MYSQL_DATABASE: sample
     ports:
       - "3306:3306"
     volumes:
